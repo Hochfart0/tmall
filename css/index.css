@@ -25,6 +25,22 @@
 #header .quick-menu>li{
     float: left;
 }
+#header .triangle::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 3px solid;
+    border-color: #ccc transparent transparent transparent;
+    position: absolute;
+    right: 6px;
+    top: 14px;
+    transform-origin: 3px 1.5px;
+    transition: none;
+}
+#header .mini-menu:hover::after{
+    transform: rotate(180deg);
+    transition: transform .5s ease;
+}
 #header .separator{
     margin-left: 10px;
     position: relative;
@@ -41,6 +57,7 @@
 }
 #header .mini-menu{
     position: relative;
+    padding-right: 4px;
     border-width: 0 1px;
     border-style: solid;
     border-color: #f2f2f2;
@@ -87,18 +104,27 @@
 }
 #header .menu-3 p{
     text-align: left;
+    float: left;
     height: 25px;
+    width: 122px;
     line-height: 25px;
 }
 #header .menu-3 .sitemap{
     float: left;
     width: 48px;
     height: 20px;
-
+    text-align: left;
 }
 #header .menu-3 .sitemap-left{
     margin-right: 20px;
 }
+#header .menu-3 .sep{
+    float: left;
+    width: 122px;
+    border-bottom: 1px dotted #827777;
+}
+
+
 
 
 

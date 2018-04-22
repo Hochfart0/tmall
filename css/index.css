@@ -16,7 +16,7 @@
 #header .login-info{
     float: left;
 }
-#header .quick-menu>ul{
+#header .quick-menu{
     position: absolute;
     top: 0;
     right: 0;
@@ -26,9 +26,9 @@
     float: left;
 }
 #header .separator{
+    margin-left: 10px;
     position: relative;
     top: 9px;
-    left: 10px;
     height: 14px;
     border-left: 1px solid #cccccc;
 }
@@ -39,17 +39,75 @@
 #header .menu-hd:hover{
     color: #ff0033;
 }
+#header .mini-menu{
+    position: relative;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+}
 #header .mini-menu:hover{
+    background: #ffffff;
+    border-color: #e5e5e5;
+}
+#header .mini-menu:hover>a{
+    color: #ff0033;
+}
+#header .mini-menu a:hover{
+    color: #ff0033;
     text-decoration: underline;
 }
+
 #header .menu-bd{
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    left: -1px;
     padding: 8px 10px;
+    background: #ffffff;
+    display: none;
 }
 #header .menu-bd a{
     display: block;
-    /*height: 32px;*/
+    height: 20px;
+    line-height: 20px;
     padding: 0;
     margin: 0;
-    clear: both;
+}
+#header .mini-menu:hover .menu-bd{
+    display: block;
+}
+#header .menu-1{
+    width: 72px;
+}
+#header .menu-2{
+    width: 62px;
+}
+#header .menu-3{
+    width: 122px;
+}
+#header .menu-3 p{
+    text-align: left;
+    height: 25px;
+    line-height: 25px;
+}
+#header .menu-3 .sitemap{
+    float: left;
+    width: 48px;
+    height: 20px;
 
 }
+#header .menu-3 .sitemap-left{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

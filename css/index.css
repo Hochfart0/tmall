@@ -12,6 +12,12 @@
     padding: 0 10px;
     height: 100%;
 }
+#header .login:hover{
+    color: #ff0036;
+}
+#header .register:hover{
+    color: #ff0036;
+}
 #header .login-info{
     float: left;
 }
@@ -169,6 +175,67 @@
 }
 #header .menu-4 .site-list-five a{
     width: 57px;
+}
+.header-extra div{
+    float: left;
+}
+.header-extra .tmall-logo{
+    width: 290px;
+    height: 130px;
+    margin: 1px -25px 0 -45px;
+}
+#mall-search{
+    position: relative;
+    left: 55px;
+    padding-top: 38px;
+    float: left;
+}
+#mall-search .mall-search-form{
+    width: 625px;
+    border-width: 1px 0 1px 1px;
+    border: solid #ff0036;
+    height: 36px;
+    clear: both;
+    background: #ffffff;
+    position: relative;
+}
+#mall-search #mq{
+    width: 483px;
+    height: 26px;
+    font: 16px /22px Arial;
+    border: none;
+    background: 0 0;
+    color: #000000;
+    margin: 0;
+    padding: 5px 3px 5px 5px;
+
+}
+#mall-search .s-combobox-placeholder{
+    visibility: visible;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    left: 8px;
+    top: 0;
+}
+#mall-search button{
+    width: 132px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FF0036;
+    border: none;
 }
 
 

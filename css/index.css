@@ -237,6 +237,28 @@
     background-color: #FF0036;
     border: none;
 }
+#mall-search .hot-query{
+    height: 24px;
+    font-size: 14px;
+    padding: 4px 0 0;
+
+}
+#mall-search .hot-query li{
+    display: inline-block;
+    border-left: 1px solid #cccccc;
+    line-height: 1.1;
+    padding: 0 12px;
+}
+#mall-search .hot-query-highlight a{
+    color: #ff0036;
+}
+.hot-query li a{
+    color: #999999;
+}
+#mall-search .hot-query .hot-query-first{
+    padding-left: 0;
+    border: 0;
+}
 
 
 

@@ -177,6 +177,9 @@
 #header .menu-4 .site-list-five a{
     width: 57px;
 }
+.header-extra{
+    height: 135px;
+}
 .header-extra div{
     float: left;
 }
@@ -208,6 +211,7 @@
     background: 0 0;
     color: #000000;
     margin: 0;
+    outline: 0;
     padding: 5px 3px 5px 5px;
 
 }
@@ -260,6 +264,51 @@
     padding-left: 0;
     border: 0;
 }
+#inner div{
+    height: 36px;
+    margin-left: 200px;
+}
+#inner img{
+    margin-top: 2px;
+    width: 100px;
+}
+#inner a{
+    float: left;
+    height: 35px;
+    color: #333333;
+    line-height: 35px;
+    padding: 0 8px;
+}
+#inner a:hover{
+    color: #ff0036;
+}
+#content .background-bg{
+    overflow: hidden;
+    height: 500px;
+    background: #eeedf2;
+}
+#content .background{
+    position: relative;
+    
+}
+#content .background img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+}
+#content .category-con{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
 
 
 

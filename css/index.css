@@ -283,7 +283,7 @@
     color: #ff0036;
 }
 #content .background-bg{
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 500px;
     background: #eeedf2;
 }
@@ -300,6 +300,19 @@
 #content .category-con{
     position: absolute;
     top: 0;
+}
+#content .category-type{
+    width: 200px;
+    height: 36px;
+    margin-top: -36px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    background: #ff0036;
+    color: #ffffff;
+}
+#content .category-type i,#content .category-type a{
+    margin: 0 4px 0 14px;
 }
 
 

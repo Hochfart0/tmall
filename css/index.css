@@ -301,19 +301,31 @@
     position: absolute;
     top: 0;
 }
-#content .category-type{
+#content .category-loaded{
     width: 200px;
-    height: 36px;
+    height: 31px;
+    line-height: 31px;
+    background-color: rgba(0, 0, 0, .55);
+}
+#content .category-type{
     margin-top: -36px;
+    height: 36px;
     font-size: 16px;
     font-weight: 700;
     line-height: 36px;
     background: #ff0036;
     color: #ffffff;
 }
-#content .category-type i,#content .category-type a{
+#content .category-loaded i{
     margin: 0 4px 0 14px;
+    color: #ffffff;
 }
+#content .category-loaded a{
+    height: 31px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
 
 
 

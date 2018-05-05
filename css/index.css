@@ -325,7 +325,15 @@
     font-size: 14px;
     color: #ffffff;
 }
-
+#content .category-loaded:hover{
+    background: #ffffff;
+}
+#content .category-loaded:hover a{
+    color: #e54077;
+}
+#content .category-loaded:hover i{
+    color: #e54077;
+}
 
 
 
